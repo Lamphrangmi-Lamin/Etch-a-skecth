@@ -1,1 +1,1 @@
-# Etch-a-skecth
+# Etch-a-sketch
