@@ -30,3 +30,7 @@ h1 {
     width: 30px;
     border: #000000 1px solid;
 }
+
+.active:hover {
+    background-color: #13e7e0;
+}
