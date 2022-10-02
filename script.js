@@ -62,8 +62,6 @@ rgb.addEventListener('click', function() {
     }
 });
 
-// Reset button to clear the screen
-reset.addEventListener('click', () => cells.forEach(cell => cell.style.background = ''));
 
 colorPicker.addEventListener('input', chosenColor);
 
