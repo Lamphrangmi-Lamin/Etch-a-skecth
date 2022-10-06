@@ -1,11 +1,42 @@
 body {
-    background-color: grey;
+    background-color: rgb(85, 227, 116);
+    color: #fff;
+}
+
+.colorpicker {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+button {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+    padding: 10px;
+    background: #1abebf;
+    background-image: linear-gradient(122deg,#37e0e0,#1abebe);
+    background-size: 300px, 300px, 100%;
+    color: #fff;
+    border-bottom: 5px solid #ffc600;
+    box-shadow: 0 0 3px 3px rgb(0 0 0 / 5%);
+    text-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    transition: all 0.3s;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(px);
 }
 
 h1 {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: whitesmoke;
+    color: #f5f5f5;
     text-decoration: underline;
 }
 
@@ -14,7 +45,7 @@ h1 {
     margin: auto;
     /* height: 2vh; */
     background-color: #fff;
-    border: 2px solid #30e830;
+    border: 3px solid rgb(47, 45, 45);
 }
 
 .row {
@@ -29,8 +60,4 @@ h1 {
     height: 30px;
     width: 30px;
     border: #000000 1px solid;
-}
-
-.active:hover {
-    background-color: #13e7e0;
 }
